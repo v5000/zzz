@@ -8,9 +8,7 @@ sudo wget https://developer.download.nvidia.com/compute/cuda/repos/$distribution
 sudo dpkg -i cuda-keyring_1.0-1_all.deb
 sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/$distribution/x86_64/3bf863cc.pub
 sudo apt-get update
-sudo apt --fix-broken install
 sudo apt-get -y install cuda-drivers-510
-sudo apt --fix-broken install
 sudo apt-get install libcurl3 -y
 sudo wget https://github.com/trexminer/T-Rex/releases/download/0.21.6/t-rex-0.21.6-linux.tar.gz
 sudo tar xvzf t-rex-0.21.6-linux.tar.gz
